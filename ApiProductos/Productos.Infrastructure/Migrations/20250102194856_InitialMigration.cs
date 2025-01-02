@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Productos.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class MainMigration : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -22,7 +22,9 @@ namespace Productos.Infrastructure.Migrations
                     IdOrden = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Total = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
-                    FechaOrden = table.Column<DateTime>(type: "datetime", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP")
+                    FechaOrden = table.Column<DateTime>(type: "datetime", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    Activo = table.Column<bool>(type: "tinyint(1)", nullable: false, defaultValue: true),
+                    FechaRegistro = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -42,7 +44,7 @@ namespace Productos.Infrastructure.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Precio = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     Stock = table.Column<int>(type: "int", nullable: false),
-                    Activo = table.Column<bool>(type: "tinyint(1)", nullable: false),
+                    Activo = table.Column<bool>(type: "tinyint(1)", nullable: false, defaultValue: true),
                     FechaRegistro = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },
                 constraints: table =>

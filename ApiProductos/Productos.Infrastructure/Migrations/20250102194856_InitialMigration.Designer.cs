@@ -12,8 +12,8 @@ using Productos.Infrastructure.DB;
 namespace Productos.Infrastructure.Migrations
 {
     [DbContext(typeof(ProductosContext))]
-    [Migration("20241231185504_MainMigration")]
-    partial class MainMigration
+    [Migration("20250102194856_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,10 +33,18 @@ namespace Productos.Infrastructure.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdOrden"));
 
+                    b.Property<bool>("Activo")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("tinyint(1)")
+                        .HasDefaultValue(true);
+
                     b.Property<DateTime>("FechaOrden")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime")
                         .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<decimal>("Total")
                         .HasPrecision(18, 2)
@@ -82,7 +90,9 @@ namespace Productos.Infrastructure.Migrations
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool>("Activo")
-                        .HasColumnType("tinyint(1)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("tinyint(1)")
+                        .HasDefaultValue(true);
 
                     b.Property<string>("Descripcion")
                         .IsRequired()

@@ -22,7 +22,7 @@ namespace Productos.Infrastructure.DB
 
         public Task<int> SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            return base.SaveChangesAsync();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

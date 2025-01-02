@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Productos.Application.Interfaces;
 using Productos.Infrastructure.DB;
+using Productos.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,8 +15,7 @@ namespace Productos.Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
-        {
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration) {
             //services.AddDbContext<ProductosContext>(options =>
             //    options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
             //    b => b.MigrationsAssembly(typeof(ProductosContext).Assembly.FullName)), ServiceLifetime.Transient);
@@ -24,10 +24,16 @@ namespace Productos.Infrastructure
                         options.UseMySql(configuration.GetConnectionString("DBProducts"),
                         new MySqlServerVersion(new Version(8, 0, 21))));
 
-
+            services.AddPersistence();
 
             services.AddScoped<IProductosContext>(provider => provider.GetService<ProductosContext>());
 
+            return services;
+        }
+
+        public static IServiceCollection AddPersistence(this IServiceCollection services) {
+
+            services.AddScoped<IProductoRepository, ProductoRepository>();
             return services;
         }
     }

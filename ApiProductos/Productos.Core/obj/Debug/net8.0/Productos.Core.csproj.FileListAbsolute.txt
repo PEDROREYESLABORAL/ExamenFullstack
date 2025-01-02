@@ -9,3 +9,15 @@ C:\Users\prest\OneDrive\Documentos\Personal\ExamenProductos\ApiProductos\Product
 C:\Users\prest\OneDrive\Documentos\Personal\ExamenProductos\ApiProductos\Productos.Core\obj\Debug\net8.0\refint\Productos.Core.dll
 C:\Users\prest\OneDrive\Documentos\Personal\ExamenProductos\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.pdb
 C:\Users\prest\OneDrive\Documentos\Personal\ExamenProductos\ApiProductos\Productos.Core\obj\Debug\net8.0\ref\Productos.Core.dll
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\bin\Debug\net8.0\Productos.Core.deps.json
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\bin\Debug\net8.0\Productos.Core.dll
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\bin\Debug\net8.0\Productos.Core.pdb
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.AssemblyInfoInputs.cache
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.AssemblyInfo.cs
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.csproj.CoreCompileInputs.cache
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.sourcelink.json
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.dll
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\refint\Productos.Core.dll
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\Productos.Core.pdb
+C:\Users\prest\OneDrive\Documentos\Personal\Github\Examen\ExamenFullstack\ApiProductos\Productos.Core\obj\Debug\net8.0\ref\Productos.Core.dll

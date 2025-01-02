@@ -22,6 +22,8 @@ namespace Productos.Infrastructure.DB.Configurations
             entity.Property(p=>p.Descripcion).IsRequired().HasMaxLength(100);
             entity.Property(p=>p.Precio).IsRequired().HasPrecision(18,2);
             entity.Property(p => p.Stock).IsRequired();
+            entity.Property(p => p.Activo).IsRequired().HasDefaultValue(true);
+
 
             OnConfigurePartial(entity);
         }

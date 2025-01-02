@@ -17,6 +17,8 @@ namespace Productos.Infrastructure.DB.Configurations
             entity.Property(e => e.IdOrden).ValueGeneratedOnAdd();
             entity.Property(p => p.Total).IsRequired().HasPrecision(18, 2);
             entity.Property(p => p.FechaOrden).HasColumnType("datetime").HasDefaultValueSql("CURRENT_TIMESTAMP").IsRequired();
+            entity.Property(p => p.Activo).IsRequired().HasDefaultValue(true);
+
 
             OnConfigurePartial(entity);
 

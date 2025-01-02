@@ -7,12 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Productos.Core\Productos.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\OrdenProducto\" />
+    <Folder Include="Commands\Orden\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Requests\OrdenProducto\" />
+    <Folder Include="Requests\Orden\" />
+    <Folder Include="Responses\OrdenProducto\" />
+    <Folder Include="Responses\Orden\" />
   </ItemGroup>
 
 </Project>

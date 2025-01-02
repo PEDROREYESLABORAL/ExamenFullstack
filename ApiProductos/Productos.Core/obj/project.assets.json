@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\ExamenProductos\\ApiProductos\\Productos.Core\\Productos.Core.csproj",
+      "projectUniqueName": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Core\\Productos.Core.csproj",
       "projectName": "Productos.Core",
-      "projectPath": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\ExamenProductos\\ApiProductos\\Productos.Core\\Productos.Core.csproj",
+      "projectPath": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Core\\Productos.Core.csproj",
       "packagesPath": "C:\\Users\\prest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\ExamenProductos\\ApiProductos\\Productos.Core\\obj\\",
+      "outputPath": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
