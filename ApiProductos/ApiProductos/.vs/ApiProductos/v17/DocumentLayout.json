@@ -3,8 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\ApiProductos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F82C67BC-A518-445D-8F39-54A6E1E0EC0C}|..\\Productos.Application\\Productos.Application.csproj|c:\\users\\prest\\onedrive\\documentos\\personal\\github\\examen\\examenfullstack\\apiproductos\\productos.application\\productos.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82C67BC-A518-445D-8F39-54A6E1E0EC0C}|..\\Productos.Application\\Productos.Application.csproj|c:\\users\\prest\\onedrive\\documentos\\personal\\github\\examen\\examenfullstack\\apiproductos\\productos.application\\requests\\orden\\addordenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\ApiProductos\\Controllers\\OrdenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\OrdenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2861C4D4-1732-42E9-90CE-6AE2647ABBA3}|ApiProductos.csproj|c:\\users\\prest\\onedrive\\documentos\\personal\\github\\examen\\examenfullstack\\apiproductos\\apiproductos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2861C4D4-1732-42E9-90CE-6AE2647ABBA3}|ApiProductos.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82C67BC-A518-445D-8F39-54A6E1E0EC0C}|..\\Productos.Application\\Productos.Application.csproj|c:\\users\\prest\\onedrive\\documentos\\personal\\github\\examen\\examenfullstack\\apiproductos\\productos.application\\commands\\producto\\updateproductocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82C67BC-A518-445D-8F39-54A6E1E0EC0C}|..\\Productos.Application\\Productos.Application.csproj|c:\\users\\prest\\onedrive\\documentos\\personal\\github\\examen\\examenfullstack\\apiproductos\\productos.application\\commands\\producto\\addproductocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82C67BC-A518-445D-8F39-54A6E1E0EC0C}|..\\Productos.Application\\Productos.Application.csproj|c:\\users\\prest\\onedrive\\documentos\\personal\\github\\examen\\examenfullstack\\apiproductos\\productos.application\\commands\\producto\\deleteproductocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +38,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Productos.Application",
+              "DocumentMoniker": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Productos.Application.csproj",
+              "RelativeDocumentMoniker": "..\\Productos.Application\\Productos.Application.csproj",
+              "ToolTip": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Productos.Application.csproj",
+              "RelativeToolTip": "..\\Productos.Application\\Productos.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-10T17:39:14.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddOrdenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Requests\\Orden\\AddOrdenRequest.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Application\\Requests\\Orden\\AddOrdenRequest.cs",
+              "ToolTip": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Requests\\Orden\\AddOrdenRequest.cs",
+              "RelativeToolTip": "..\\Productos.Application\\Requests\\Orden\\AddOrdenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:39:13.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdenController.cs",
+              "DocumentMoniker": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\ApiProductos\\Controllers\\OrdenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdenController.cs",
+              "ToolTip": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\ApiProductos\\Controllers\\OrdenController.cs",
+              "RelativeToolTip": "Controllers\\OrdenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:39:10.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\ApiProductos\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\ApiProductos\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "Controllers\\ProductoController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwDwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T20:03:56.397Z",
+              "WhenOpened": "2025-01-03T16:11:03.444Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddProductoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Commands\\Producto\\AddProductoCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Application\\Commands\\Producto\\AddProductoCommandHandler.cs",
+              "ToolTip": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Commands\\Producto\\AddProductoCommandHandler.cs",
+              "RelativeToolTip": "..\\Productos.Application\\Commands\\Producto\\AddProductoCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:09:32.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteProductoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Commands\\Producto\\DeleteProductoCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Application\\Commands\\Producto\\DeleteProductoCommandHandler.cs",
+              "ToolTip": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Commands\\Producto\\DeleteProductoCommandHandler.cs",
+              "RelativeToolTip": "..\\Productos.Application\\Commands\\Producto\\DeleteProductoCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:07:09.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateProductoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Commands\\Producto\\UpdateProductoCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Application\\Commands\\Producto\\UpdateProductoCommandHandler.cs",
+              "ToolTip": "C:\\Users\\prest\\OneDrive\\Documentos\\Personal\\Github\\Examen\\ExamenFullstack\\ApiProductos\\Productos.Application\\Commands\\Producto\\UpdateProductoCommandHandler.cs",
+              "RelativeToolTip": "..\\Productos.Application\\Commands\\Producto\\UpdateProductoCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBwAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:06:55.758Z"
             }
           ]
         }

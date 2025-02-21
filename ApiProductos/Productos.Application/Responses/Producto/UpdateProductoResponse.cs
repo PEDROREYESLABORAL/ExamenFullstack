@@ -10,7 +10,7 @@ namespace Productos.Application.Responses.Producto
     {
         public string Status { get; set; }
         public string Message { get; set; }
-        public bool IsSucceess { get; set; }
-        public int IdCreated { get; set; }
+        public bool IsSuccess { get; set; }
+        public int Id { get; set; }
     }
 }

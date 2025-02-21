@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Productos.Application.Responses.Producto
 {
-    public class AddProductoResponse
+    public class DeleteProductoResponse
     {
         public string Status { get; set; }
         public string Message { get; set; }

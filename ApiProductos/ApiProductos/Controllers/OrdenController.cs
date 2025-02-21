@@ -1,20 +1,15 @@
-﻿//using MapsterMapper;
-using Azure;
-using MediatR;
-using Microsoft.AspNetCore.Hosting.Server;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Productos.Application.Commands.Producto;
 using Productos.Application.Requests.Producto;
 
-
 namespace ApiProductos.Controllers
 {
-
     [Route("api/[controller]")]
-    public class ProductoController : ControllerBase
+    public class OrdenController : ControllerBase
     {
         private readonly ISender _sender;
-        public ProductoController(ISender sender) {
+        public OrdenController(ISender sender) {
             _sender = sender;
         }
 
@@ -24,7 +19,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        public async Task<IActionResult> AddProducto([FromBody] AddProductoRequest request) {
+        public async Task<IActionResult> AddOrden([FromBody] AddOrdenRequest request) {
             try {
                 var addProductoCommand = new AddProductoCommand(request);
                 var response = await _sender.Send(addProductoCommand);
@@ -84,4 +79,3 @@ namespace ApiProductos.Controllers
 
     }
 }
-

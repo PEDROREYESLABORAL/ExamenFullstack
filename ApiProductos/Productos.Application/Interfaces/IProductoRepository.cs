@@ -10,5 +10,9 @@ namespace Productos.Application.Interfaces
     public interface IProductoRepository
     {
         public Task<bool> AddProducto(Producto model);
+        public Task<bool> UpdateProducto(Producto model);
+        public Task<bool> DeleteProducto(int idProducto);
+
+
     }
 }

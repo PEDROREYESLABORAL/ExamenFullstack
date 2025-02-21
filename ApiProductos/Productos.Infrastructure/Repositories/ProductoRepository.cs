@@ -36,5 +36,36 @@ namespace Productos.Infrastructure.Repositories
             else
                 return false;
         }
+
+        public async Task<bool> DeleteProducto(int idProducto) {
+            try {
+                var producto = await _context.Producto.FindAsync(idProducto);
+                if (producto != null) {
+                    _context.Producto.Remove(producto);
+                    await _context.SaveChangesAsync();
+                    return true;
+                }
+                else return false;
+            }
+            catch (Exception e) {
+                return false;
+            }
+        }
+
+        public async Task<bool> UpdateProducto(Producto model) {
+            if (model != null) {
+                try {
+                    _context.Producto.Update(model);
+                    await _context.SaveChangesAsync();
+                    return true;
+                }
+                catch (Exception e) {
+                    return false;
+                }
+            }
+            else {
+                return false;
+            }
+        }
     }
 }

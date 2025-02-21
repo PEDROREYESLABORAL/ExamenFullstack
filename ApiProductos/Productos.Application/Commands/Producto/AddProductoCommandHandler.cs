@@ -29,10 +29,10 @@ namespace Productos.Application.Commands.Producto
                     Stock = command._model.Stock
                 };
                 var response = await _productoRepository.AddProducto(producto);
-                return new AddProductoResponse() { IsSucceess = response, Message = response == true ? "Succeess" : "Fail", IdCreated = response == true ? producto.Id : -1 };
+                return new AddProductoResponse() { IsSuccess = response, Message = response == true ? "Success" : "Fail", Id = response == true ? producto.Id : -1 };
             }
             else {
-                return new AddProductoResponse() { IsSucceess = false, Status = "Failed", Message = "No data" };
+                return new AddProductoResponse() { IsSuccess = false, Status = "Failed", Message = "No data" };
             }
         }
     }

@@ -21,7 +21,6 @@
     <Folder Include="Commands\Orden\" />
     <Folder Include="Queries\" />
     <Folder Include="Requests\OrdenProducto\" />
-    <Folder Include="Requests\Orden\" />
     <Folder Include="Responses\OrdenProducto\" />
     <Folder Include="Responses\Orden\" />
   </ItemGroup>
